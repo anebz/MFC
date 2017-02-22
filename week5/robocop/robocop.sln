@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "robocop", "robocop\robocop.vcxproj", "{54D1DB32-9BC6-4903-A2E5-DBCED6A9C04F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54D1DB32-9BC6-4903-A2E5-DBCED6A9C04F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54D1DB32-9BC6-4903-A2E5-DBCED6A9C04F}.Debug|Win32.Build.0 = Debug|Win32
+		{54D1DB32-9BC6-4903-A2E5-DBCED6A9C04F}.Release|Win32.ActiveCfg = Release|Win32
+		{54D1DB32-9BC6-4903-A2E5-DBCED6A9C04F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomCtrl", "CustomCtrl\CustomCtrl.vcxproj", "{21583011-B3FF-4815-8EC2-A98A579E7A68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21583011-B3FF-4815-8EC2-A98A579E7A68}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21583011-B3FF-4815-8EC2-A98A579E7A68}.Debug|Win32.Build.0 = Debug|Win32
+		{21583011-B3FF-4815-8EC2-A98A579E7A68}.Release|Win32.ActiveCfg = Release|Win32
+		{21583011-B3FF-4815-8EC2-A98A579E7A68}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
