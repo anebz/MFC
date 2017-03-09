@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDPServAudio", "UDPServAudio\UDPServAudio.vcxproj", "{42D48A86-91EB-4A97-95CF-97A41E903AF8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDPClientAudio", "UDPClientAudio\UDPClientAudio.vcxproj", "{F748BF62-002C-4C18-8E11-4D0C06C4DE5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D48A86-91EB-4A97-95CF-97A41E903AF8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42D48A86-91EB-4A97-95CF-97A41E903AF8}.Debug|Win32.Build.0 = Debug|Win32
+		{42D48A86-91EB-4A97-95CF-97A41E903AF8}.Release|Win32.ActiveCfg = Release|Win32
+		{42D48A86-91EB-4A97-95CF-97A41E903AF8}.Release|Win32.Build.0 = Release|Win32
+		{F748BF62-002C-4C18-8E11-4D0C06C4DE5A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F748BF62-002C-4C18-8E11-4D0C06C4DE5A}.Debug|Win32.Build.0 = Debug|Win32
+		{F748BF62-002C-4C18-8E11-4D0C06C4DE5A}.Release|Win32.ActiveCfg = Release|Win32
+		{F748BF62-002C-4C18-8E11-4D0C06C4DE5A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
