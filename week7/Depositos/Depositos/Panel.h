@@ -10,7 +10,7 @@ class CPanel : public CWnd
 public:
 	CPanel();
 	virtual ~CPanel();
-	double height;
+	double height; // altura del deposito
 
 protected:
 	DECLARE_MESSAGE_MAP()

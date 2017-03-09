@@ -8,8 +8,7 @@ class CSockServer : public CSocket
 {
 public:
 	CSockServer(CDepoServerDlg*);
-	CDepoServerDlg *pDlg;
-	CSocket soc;
+	CDepoServerDlg *pDlg; // objeto del dialogo
 
 	virtual ~CSockServer();
 	virtual void OnReceive(int nErrorCode);

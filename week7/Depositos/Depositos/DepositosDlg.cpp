@@ -111,9 +111,10 @@ BOOL CDepositosDlg::OnInitDialog()
 
 	// TODO: Add extra initialization here
 
-	p1.SubclassDlgItem(IDC_D1, this);
+	p1.SubclassDlgItem(IDC_D1, this); // conectar cada PictureControl con los objetos de clase CPAnel
 	p2.SubclassDlgItem(IDC_D2, this);
 
+	// socket TCP
 	sTCP = new CSockClient(this);
 	sTCP->Create(502,SOCK_STREAM); // create socket TCP
 	sTCP->Listen(); // listening 
@@ -179,6 +180,7 @@ HCURSOR CDepositosDlg::OnQueryDragIcon()
 void CDepositosDlg::OnBnClickedStart()
 {
 	UpdateData(1);
+
 	// UDP
 	pUDP = new CSockClient(this); // create socket
 	if(!pUDP->Create(0,SOCK_DGRAM)){ // puerto 0 --> both sockets in port 502 doesn't work
@@ -200,7 +202,7 @@ void CDepositosDlg::OnBnClickedStop()
 	m_dep1 = "0";
 	UpdateData(0);
 	p1.height = 0;
-	p1.Invalidate(1);
+	p1.Invalidate(1); // volver a pintar
 }
 
 

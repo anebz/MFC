@@ -177,13 +177,13 @@ void CDepoServerDlg::OnNMReleasedcaptureSl2(NMHDR *pNMHDR, LRESULT *pResult)
 	cs.Format("%d", m_sl2);
 
 	CSocket misoc;
-	if(!misoc.Create()){ // no parameters
+	if(!misoc.Create()){
 		MessageBox("Error"); return;
 	}
 	if(!misoc.Connect("127.0.0.1", 502)){ // 127.0.0.1, 502
 		MessageBox("No conecta.."); return;
 	}
-	//Client connected
+
 	misoc.Send(cs, cs.GetLength()); 
 
 	m_msg.Format("deposito1: %d, deposito2: %d", m_sl1, m_sl2);

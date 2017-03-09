@@ -11,8 +11,8 @@ class CDepoServerDlg : public CDialogEx
 // Construction
 public:
 	CDepoServerDlg(CWnd* pParent = NULL);	// standard constructor
-	CSockServer *sUDP, *sTCP;
-	UINT m_port;
+	CSockServer *sUDP, *sTCP; // objetos socket
+
 
 // Dialog Data
 	enum { IDD = IDD_DEPOSERVER_DIALOG };
@@ -35,5 +35,6 @@ public:
 	int m_sl1, m_sl2;
 	afx_msg void OnNMReleasedcaptureSl2(NMHDR *pNMHDR, LRESULT *pResult);
 	CString m_tim;
-	CString m_msg;
+	CString m_msg;	
+	UINT m_port;
 };

@@ -12,8 +12,8 @@ class CDepositosDlg : public CDialogEx
 // Construction
 public:
 	CDepositosDlg(CWnd* pParent = NULL);	// standard constructor
-	CSockClient *pUDP, *sTCP;
-	CPanel p1, p2;
+	CSockClient *pUDP, *sTCP; // objetos de socket
+	CPanel p1, p2; // objetos CPanel para los dos PictureControl
 
 // Dialog Data
 	enum { IDD = IDD_DEPOSITOS_DIALOG };
@@ -34,11 +34,8 @@ protected:
 	DECLARE_MESSAGE_MAP()
 public:
 	afx_msg void OnBnClickedStart();
-	CString m_ip;
+	CString m_ip, m_dep1, m_dep2, m_msg;
 	int m_port;
-	CString m_dep1;
 	afx_msg void OnBnClickedStop();
-	CString m_dep2;
 	afx_msg void OnTimer(UINT_PTR nIDEvent);
-	CString m_msg;
 };

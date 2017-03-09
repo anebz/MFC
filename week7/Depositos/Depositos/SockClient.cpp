@@ -31,10 +31,10 @@ void CSockClient::OnReceive(int nErrorCode)
 	//Recibe Mensaje
 	int len = ReceiveFrom(buf,50,addr,port);
 	// receivefrom: info, length, IP, PORT
-	buf[len] = 0; // take only info until pos len
+	buf[len] = 0; // a partir de la posicion len, todo el array esta a 0
 
 	pDlg->m_dep1 = (CString)buf;
-	pDlg->p1.height = atof(buf);
+	pDlg->p1.height = atof(buf); // CString to double
 	pDlg->p1.Invalidate(1);
 
 	pDlg->m_msg.Format("deposito1: " +  pDlg->m_dep1 + ", deposito2: " + pDlg->m_dep2);
@@ -47,9 +47,9 @@ void CSockClient::OnAccept(int nErrorCode)
 {
 	char buf[50];
 	static int num = 0;
-	CSocket cliente; // create socket, port??
+	CSocket cliente; 
 	Accept(cliente); // Accept for TCP
-	int len = cliente.Receive(buf,50); // receive from alle
+	int len = cliente.Receive(buf,50); 
 	buf[len] = 0;
 
 	pDlg->m_dep2 = (CString)buf;

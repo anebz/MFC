@@ -8,7 +8,7 @@ class CSockClient : public CSocket
 {
 public:
 	CSockClient(CDepositosDlg*);
-	CDepositosDlg* pDlg;
+	CDepositosDlg* pDlg; // objeto del dialogo
 
 	virtual ~CSockClient();
 	virtual void OnReceive(int nErrorCode);

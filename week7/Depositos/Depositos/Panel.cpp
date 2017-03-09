@@ -35,10 +35,10 @@ void CPanel::OnPaint()
 	GetClientRect(r);
 
 	r.top -= r.top * (double)height/100;;
-	dc.FillSolidRect(r,RGB(0,100,255));
+	dc.FillSolidRect(r,RGB(0,100,255)); // pintar rectangulo azul
 
 	GetClientRect(r);
 	r.bottom -= r.bottom * (double)height/100;
-	dc.FillSolidRect(r,RGB(255,255,255));
+	dc.FillSolidRect(r,RGB(255,255,255)); // pintar de blanco el resto
 
 }
