@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChatS", "ChatS\ChatS.vcxproj", "{CC502F1F-AFAE-4708-94A5-C0DD7FF659CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChatC", "ChatC\ChatC.vcxproj", "{6823626C-A4F1-4E1B-9A7E-998D973E0178}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC502F1F-AFAE-4708-94A5-C0DD7FF659CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC502F1F-AFAE-4708-94A5-C0DD7FF659CE}.Debug|Win32.Build.0 = Debug|Win32
+		{CC502F1F-AFAE-4708-94A5-C0DD7FF659CE}.Release|Win32.ActiveCfg = Release|Win32
+		{CC502F1F-AFAE-4708-94A5-C0DD7FF659CE}.Release|Win32.Build.0 = Release|Win32
+		{6823626C-A4F1-4E1B-9A7E-998D973E0178}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6823626C-A4F1-4E1B-9A7E-998D973E0178}.Debug|Win32.Build.0 = Debug|Win32
+		{6823626C-A4F1-4E1B-9A7E-998D973E0178}.Release|Win32.ActiveCfg = Release|Win32
+		{6823626C-A4F1-4E1B-9A7E-998D973E0178}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
